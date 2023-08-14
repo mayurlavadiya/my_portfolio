@@ -119,6 +119,7 @@ header.shadow {
   display: grid;
   grid-template-columns: 0.2fr 1fr 1fr;
   align-items: center;
+  margin-top: 20px;
   gap: 1rem;
 }
 
@@ -169,6 +170,7 @@ header.shadow {
   display: inline-block;
   background: var(--main-color);
   color: #fff;
+  margin: 5px;
   padding: 0.7rem 1.3rem;
   border-radius: 0.5rem;
 }
@@ -627,6 +629,10 @@ form textarea {
   :root {
     --big-font: 1.7rem;
     --medium-font: 1.1rem;
+  }
+
+  .header{
+    margin-bottom: 20px;
   }
 
   .home-text span {
