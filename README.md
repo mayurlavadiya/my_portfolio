@@ -67,7 +67,7 @@ Hi 👋, I'm a Dynamic Web Developer Looking For New Opportunities To Challenge 
 
 
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)]([https://mayurlavadiya.dorik.io/](https://mayurlavadiya.github.io/my_portfolio/index.html))
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://mayurlavadiya.github.io/my_portfolio/index.html)
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/mayurlavadiya)
 
