@@ -436,6 +436,10 @@ body.active .project-box:hover {
   box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
 }
 
+.experience-box h2,h3,h4,p{
+  color: #000;
+}
+
 .experience-box:hover {
   background-color: #02225a;
 }
@@ -446,8 +450,8 @@ body.active .project-box:hover {
   margin: 0.7rem 0 0.4rem;
 }
 
-.experience-box:hover h3 {
-  color: #fff;
+.experience-box:hover h2,h3,h4,p {
+  color: #000000;
 }
 
 .experience-box .bx {
@@ -710,10 +714,14 @@ form textarea {
   }
 
   .contact-form form {
-    width: 300px;
+    width: 280px;
   }
 
   .contact-button {
     margin-left: 25%;
+  }
+
+  .experience-box{
+    width: 280px;
   }
 }
