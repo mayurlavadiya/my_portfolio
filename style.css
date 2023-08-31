@@ -425,7 +425,7 @@ body.active .project-box:hover {
 
 .experience-box {
   padding: 20px;
-  width: 520px;
+  width: 350px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -722,6 +722,6 @@ form textarea {
   }
 
   .experience-box{
-    width: 250px;
+    width: 400px;
   }
 }
