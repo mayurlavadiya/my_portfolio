@@ -123,11 +123,6 @@ header.shadow {
   gap: 1rem;
 }
 
-.home-text p.active {
-  --text-color: #fff;
-  --bg-color: #0f0c27;
-}
-
 .home-img {
   order: 3;
 }
