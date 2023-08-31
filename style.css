@@ -714,7 +714,7 @@ form textarea {
   }
 
   .contact-form form {
-    width: 280px;
+    width: 300px;
   }
 
   .contact-button {
@@ -722,6 +722,6 @@ form textarea {
   }
 
   .experience-box{
-    width: 280px;
+    width: 250px;
   }
 }
