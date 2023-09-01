@@ -387,7 +387,7 @@ span {
 .project-box a {
   display: inline-block;
   margin-top: 0.7rem;
-  color: var(--main-color);
+  color: crimson;
   text-decoration: none;
 }
 
@@ -413,8 +413,32 @@ body.active .project-box:hover {
   color: #fff;
 }
 
-/* Experience */
+body.active .home-text p {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
 
+body.active .about-text p {
+  color: var(--text-color);
+}
+
+body.active .bars-box h3{
+  color: var(--text-color);
+}
+
+body.active .services-box h3{
+  color: var(--text-color);
+}
+
+body.active .project-box p {
+  color: var(--text-color);
+}
+
+body.active .project-box p {
+  color: var(--text-color);
+}
+
+/* Experience */
 
 .experience-content {
   display: grid;
@@ -437,9 +461,6 @@ body.active .project-box:hover {
   box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
 }
 
-.experience-box h2,h3,h4,p{
-  color: #000;
-}
 
 .experience-box:hover {
   background-color: #02225a;
@@ -449,10 +470,6 @@ body.active .project-box:hover {
   font-size: 1rem;
   font-weight: 600;
   margin: 0.7rem 0 0.4rem;
-}
-
-.experience-box:hover h2,h3,h4,p {
-  color: #000000;
 }
 
 .experience-box .bx {
@@ -475,6 +492,44 @@ body.active .project-box:hover {
   color: #8b8a8f;
 }
 
+/* 1-9-23 update  */
+          /* Default styles for education and experience sections */
+          .education, .experience {
+            width: 50%; /* Adjust the width as needed */
+            margin: 0 auto;
+            padding: 20px;
+            /* border: 1px solid #ccc; */
+            margin-bottom: 20px;
+          }
+
+          .education h2, .experience h2 {
+            font-size: 24px;
+          }
+
+          .education-item, .experience-item {
+            margin-bottom: 10px;
+          }
+
+          .about-img img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .skills-img img {
+          max-width: 100%;
+          height: auto;
+      }
+
+      .project-image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    
+/* ahya sudhi update  */
+
+          
 /* Media Queries */
 @media (max-width: 991px) {
   .projects-content {
@@ -689,7 +744,19 @@ form textarea {
   .contact-button {
     margin-left: 25%;
   }
+  }
+
+/* 1-9-2023 */
+      @media (max-width: 768px) {
+        .education, .experience {
+            width: 90%; /* Adjust the width for mobile devices */
+        }
+
+        .education h2, .experience h2 {
+            font-size: 20px; /* Adjust font size for mobile */
+        }
 }
+/* ahya sudhi change */
 
 @media (max-width: 340px) {
   :root {
